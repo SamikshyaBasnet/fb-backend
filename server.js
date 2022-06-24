@@ -16,7 +16,9 @@ import {
 } from "assert";
 
 
-import mongoPosts from './postModel';
+import
+mongoPosts
+from './postModel.js';
 
 
 Grid.mongo = mongoose.mongo

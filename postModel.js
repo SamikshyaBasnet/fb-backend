@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const postModel = mongoose.SchemaTypeOptions({
+const postModel = new mongoose.SchemaTypeOptions({
     user: String,
     imgName: String,
     text: String,
